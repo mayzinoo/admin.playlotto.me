@@ -1,0 +1,123 @@
+body{
+	margin:0px !Important;
+	background: #eee;
+}
+.update-btn{
+padding:2px 7px !Important;
+}
+.module-body table{
+overflow-x: scroll;
+    overflow-y: scroll;
+    display: block;
+}
+.container, 
+.navbar-static-top .container, 
+.navbar-fixed-top .container, 
+.navbar-fixed-bottom .container{
+	/*width:1300px !Important;*/
+}
+
+.navbar-inner{
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(left,  #1e5799 0%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #1e5799 0%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #1e5799 0%,#7db9e8 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+
+}
+.navbar .brand{
+	color:#fff !Important;
+	font-style: italic;
+}
+.widget-menu > li > a{
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(left,  #1e5799 0%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #1e5799 0%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #1e5799 0%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+color:#fff !important;
+}
+
+/*padding*/
+.nopadding{
+	padding:0;
+}
+.padding_sm{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.padding_md{
+	padding-top:30px;
+	padding-bottom: 30px;
+}
+.leftsidepadding_md{
+	padding-left:30px;
+}
+.padding_lg{
+	padding-top:60px;
+	padding-bottom: 60px;
+}
+.padding_xl{
+	padding-top:80px;
+	padding-bottom: 80px;
+}
+.padding_xxl{
+	padding-top:120px;
+	padding-bottom: 120px;
+}
+.toppadding_sm{
+	padding-top:10px;
+}
+.toppadding_md{
+	padding-top:30px;
+}
+.toppadding_xl{
+	padding-top: 80px;
+}
+.bottompadding_sm{
+    padding-bottom:10px;
+}
+.bottompadding_md{
+	padding-bottom:30px;
+}
+.bottompadding_lg{
+	padding-bottom:60px;
+}
+.bottompadding_xl{
+	padding-bottom:80px;
+}
+.sidepadding_sm{
+	padding-left:10px;
+	padding-right:10px;
+}
+.sidepadding_md{
+	padding-left:30px;
+	padding-right: 30px;
+}
+.sidepadding_xxl{
+	padding-left:150px;
+	padding-right:150px;
+}
+.dropdown-menu li>p{
+	 padding: 10px 20px;
+    display: block;
+    clear: both;
+    font-weight: normal;
+    line-height: 20px;
+    color: #333333;
+    white-space: nowrap;
+}
+/*ihpone*/
+@media only screen and (min-width:300px) and (max-width:410px){
+	.module-body table{
+	overflow-x:scroll;
+	overflow-y:scroll;
+	display:block;
+	}
+}
+/*s10*/
+@media only screen and (min-width:600px) and (max-width:410px){
+
+}
